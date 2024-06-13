@@ -1,0 +1,8 @@
+.idea/
+.vscode/
+.vscode-test/
+.dynamodb/
+**/.env
+node_modules/
+target/
+uploads/
