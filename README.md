@@ -1,13 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/sYr67WnG)
 # NETS 2120 Course Project
-
-## Milestones and Deadlines
-* Teams of 4 must form by **Friday, April 5, 2024**
-* Four group check-ins with your shepherd TA, no later than **4/19, 4/24, 5/1, and 5/6**
-* Code and report due in Gradescope on **May 6, 2024**
-* Demos during **finals week** (May 6-14)
-
-All deadlines are at 11:59 PM Eastern Time.
+# Collaborators: Shruti Agarwal, Daniel Rohacs, Patrick Wu
 
 ## Overview
 
@@ -167,101 +160,4 @@ Your design should also be scalable: if a million users signed up for your syste
 ### Recommend Who and What to Follow
 
 Based on the link structure of the graph as well as the activity and hashtag structure of the streaming posts, your system should on a daily basis recompute a list of recommendations for "who to follow".
-
-### Opportunities for Extra Credit
-
-We will give a liberal amount of extra credit for creativity in the project. Below are some suggestions for extra-credit items:
-
-* (+2) LinkedIn-style friend requests with confirmation (i.e., users can accept or deny friend requests); 
-* (+5) A "forgot password" option that sends to the user's email address a password reset token and a link to the password reset screen;
-* (+5) Privacy controls (e.g., limiting who can see a particular post);
-* (+5) Infinite scrolling;
-* (+5) Groups (i.e. ones similar to Facebook communities);
-* (+5) Targeted advertising, based on users’ interests or on words in their posts; 
-* (+5) Site-wide "what’s trending" feature;
-* (+5) WebSockets for chat;
-* (+5) The LLM search always returns valid links for search results.
-
-However, these are just examples - feel free to consider other features as well, e.g., based on functionality that the current Facebook has, or even novel features that you define yourself. If you are considering a particular feature and are not sure whether it would be counted as extra credit, feel free to post a question on Ed Discussion. Extra credit will be awarded based on the complexity of a feature, not just based on its presence; for instance, profile pictures are easier than groups and thus would be worth less, and adding a simple input field where users can declare group memberships would yield considerably less extra credit than a full implementation with separate pages for groups where members can post messages, etc.
-
-For this iteration of the course, we do not set a ceiling on the amount of extra credit that can be earned. You may receive over 100% on the project if you implement a large number of extra-credit features.
-
-## Project Report
-
-At the end of the project, your team must include a short final report, as a PDF file of approximately five pages (excluding images) within your GitHub repository. This report, in the final `final-report.pdf`, will be part of your project score; grading will be based both on clarity of writing and on technical content. The report should contain, at least:
-
-* A short overview of the system you built;
-* A technical description of the components you built;
-* A discussion of nontrivial design decisions;
-* A discussion of changes you made along the way, and lessons you learned;
-* A brief description of the extra-credit features, if any;
-* A series of screenshots of your system in action (one for each main feature/page).
-
-Please try to choose the right level of detail (not too nitty-gritty, not too high-level), and please avoid repeating points that are already in this handout. For instance, don’t write that your solution has a news feed (this was required!); instead, write how you designed the DynamoDB table that the newsfeed uses, and why you did it that way.
-
-## Logistics
-
-### Team Registration
-
-You should form teams of 4 students. You can form your own team, or you can use the discussion group to find teammates. Once you have formed a team, please have one member submit to the Google Form posted on Ed with your team information. If you don't form a team by Friday, April 5, we will assign you to a team via random matching.
-
-### TA Shepherding Process
-
-Once your team has registered, it will be assigned a TA as a “shepherd”. You should schedule 15-minute sessions with your shepherd each week by the dates specified on the first page of this handout. All team members should attend each session. The sessions may either be in-person or virtual.
-
-For the first session, you should prepare 1) a quick overview of your design, and 2) a set of specific milestones for for sessions #2, #3, and #4, subject to the following requirements:
-
-* Each milestone should be associated with one specific team member, who will be responsible for reaching it. It is okay for team members to help each other, but there has to be a single “lead” who will assume responsibility.
-
-* There should be at least two milestones per session for each team member. Each milestone should be specific (e.g., in terms of features implemented and working) and demoable – that is, there should be a way to show later that the milestone has been reached.
-
-* The session-3 milestones should cover at least 1) user registration, 2) the home page, 3) account changes, 4) the list of friends, and 5) having the news articles loaded into the database. The session-4 milestones should cover at least 80% of the basic/required features; it should be clear that the required features can be completed by May 6th. The milestones do not need to cover extra credit.
-
-* The work should be spread roughly uniformly across the project (there should be no weeks that are substantially busier, or less busy, than others) and it should be split roughly equally between the team members.
-
-* The milestones should be concrete tasks that can be clearly demo-ed or measured. Attempt to reduce dependencies between team members as much as possible (e.g., if one team member is blocked, the others should still be able to make progress).
-
-Your shepherd will give you feedback on your materials, and will answer any questions. After the meeting, you should email the (potentially revised) milestones to your shepherd.
-
-Session #1 is a team grade for the submission of draft and revised milestone proposals before and after the meeting, and sessions #2, #3, and #4 are graded on attendance and completion for each individual. Sessions #1, #2 and #4 are each worth 2% of the project score; session #3 will be a ‘mini-demo’ that is worth 4%, where you demo the site functioning as a whole covering the required session-3 features listed above in addition to individual contribution demos. During these sessions, your team should demo the features that have been implemented so far, and your shepherd will compare your progress to the milestones for that session. They will send an email to the entire team, that includes 1) the milestones for this session and the associated “leads”, 2) an estimate of what fraction of each milestone (or rough equivalent thereof) has been completed, 3) a score (based both on how many milestones have been reached and on the quality and completeness of the implementation) of this session for each individual, and 4) any revisions to the remaining milestones. Revisions may be necessary, e.g., if progress has been unexpectedly slow in a certain week, or if certain features turn out to be much harder or easier than anticipated.
-
-Please use the shepherding sessions to ask lots of questions! Your shepherd will have completed a similar project previously from the old iteration of this course, and he or she will have a lot of useful tips and insights to share. Keep in mind, however, that each shepherd was responsible for a particular set of features and may not know the other features in depth, so they may refer you to a different TA for certain questions.
-
-### Project Demos
-
-Your team must do a short demo (about 15-20 minutes) during the finals period. A number of time slots on different days will be posted to Ed Discussion near the end of the semester. We cannot reserve slots or create additional slots, so, if you or some of your team members have constraints (holiday travel, final exams, etc.), please discuss this well in advance and pick a suitable slot. Once your team has reserved a slot, the only way to change the slot is to find another team that agrees to swap slots with you. Slots are first-come, first-served. The signup opening time will be announced a few days in advance via Ed.
-
-All team members must be present in-person on campus for the demo by default. If you have any emergencies or unavoidable conflicts, please let us know as soon as possible by emailing the course staff (yuyingf@seas.upenn.edu). We will allow you to participate remotely in such cases, or exempt you from the demo if necessary. All absences or remote participation without advance notice will result in zero credit for the individual.
-
-### Team Contribution Form
-
-Normally, each member of the team will receive the same score for the project report and demo, but we may deviate from this if it is clear that some team members have made substantially more progress than others. We will send out a Google Form after the report due date to collect feedback from everyone on the team about their estimates on the contribution of each team member. This will be used to adjust the final project score for each team member if needed.
-
-### AWS and OpenAI Accounts
-
-Each team will receive a project AWS Academy account via email during the first week of the project. This account will have a $100 credit. Team members may share access to AWS resources on this account (e.g. DynamoDB tables). It is your responsibility to ensure that you keep your credentials safe and accessible to everyone in your team. Multiple people are allowed to connect to the same Lab session at the same time.
-
-Each team is responsible for the security of its AWS account(s). It is important to make sure that all team members understand how the AWS firewall works, and what a security rule is. In particular, it is critical that all security rules be as restrictive as possible; DO NOT just open all ports to anyone on the whole planet (0.0.0.0/0) because that virtually guarantees that your account will be hacked!
-
-We will have a shared OpenAI API key.  Our expectation is that you will only use a limited number of prompts (<100 requests) so this will be adequate for testing and for the course.  If you need more credits, your team can use your own private key under your own billing.
-
-### GitHub Classroom
-
-This assignment is released as a Group Assignment on GitHub Classroom. One member of your team should create a new repository from the assignment link and ask everyone else to join the same repo after accepting the assignment. You should use this repository to store all of your code and documentation for the project. You should also use this repository to submit your final report.
-
-### Submission Checklist
-
-* Your code contains a reasonable amount of useful documentation.
-
-* You have checked your final code into the Git repository.
-
-* You have removed all AWS credentials from the code you are submitting.
-
-* Your repository contains all the files needed to compile and run your solution (including all .js/.ejs files, and all Spark code); as well as README file that describes 1) the team number and team name, 2) the full names and SEAS login names of all team members, 3) a description of features implemented, 4) any extra credit claimed, 5) a list of source files included, 6) a declaration that all the code you are submitting was written by you, and 7) instructions for building an running your project. The instructions must be sufficiently detailed for us to set up and run your application.
-
-* Please avoid checking your `target` folder in to GitHub. Please do not include large data files (these can be hosted on S3), or your `node_modules`. If you used third-party libraries and are not including them in your submission, please state in the README file what libraries, and include them in the appropriate `pom.xml` or `package.json` files. We have provided a starter `.gitignore`, but you may need to update it as needed.
-
-* You are submitting your final report as a PDF file of no more than five pages (including appendices, screenshots, images, and any references).  This should be called `final-report.pdf` and be in the root of your GitHub project.
-
-* You submitted your GitHub repo with your final report via Gradescope, before the deadline on the first page of this handout. Late hours cannot be used for the project.
 
