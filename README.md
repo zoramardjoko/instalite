@@ -1,6 +1,26 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/sYr67WnG)
 # InstaLite
 # Collaborators: Shruti Agarwal, Daniel Rohacs, Patrick Wu
+# Screenshots
+Login/Signup:
+![image](https://github.com/zoramardjoko/instalite/assets/87042775/fd49be01-0e9b-42f9-8b6a-e790904156e6)
+![image](https://github.com/zoramardjoko/instalite/assets/87042775/850cd43e-8faf-4280-8957-baf8c6a9d1ca)
+Profile Photo Upload + Actor Matching (using vector similarity):
+![image](https://github.com/zoramardjoko/instalite/assets/87042775/f0624f78-67fa-4231-80ae-f9758ca148f4)
+Home Page:
+![image](https://github.com/zoramardjoko/instalite/assets/87042775/83d17e10-50b3-4dff-99df-049ccc7a3ce6)
+Notifications:
+![image](https://github.com/zoramardjoko/instalite/assets/87042775/387bf906-cf58-4939-afb4-4a2186d5c4aa)
+Settings:
+![image](https://github.com/zoramardjoko/instalite/assets/87042775/e44c7db9-b5e4-4bf4-8c90-0ed0cb771ef7)
+User Profile:
+![image](https://github.com/zoramardjoko/instalite/assets/87042775/21fe011e-c901-4ebb-a792-105e61b46f4c)
+Friends List:
+![image](https://github.com/zoramardjoko/instalite/assets/87042775/335842e5-50e4-41e9-bfae-54306d7cc841)
+Post Popup:
+![image](https://github.com/zoramardjoko/instalite/assets/87042775/5c77639c-fde6-406b-87ce-22e2110985ae)
+Chat Page:
+![image](https://github.com/zoramardjoko/instalite/assets/87042775/7ef86fe9-d687-4133-ba35-a214dc68bb6b)
+
 
 ## Overview
 
